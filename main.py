@@ -46,8 +46,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ Bʏ", url="https://t.me/Aks_support01_bot"),
-             InlineKeyboardButton("🌱 Movies Channel ", url="https://t.me/technicalaks1"), 
+            [InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ Bʏ", url="https://t.me/Z_Harbour_bot"),
+             InlineKeyboardButton("🌱 Movies Channel ", url="https://t.me/z_harbour"), 
              InlineKeyboardButton("👥 About", callback_data="About_msg")],
             [InlineKeyboardButton("Search Inline", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
         ])
@@ -68,14 +68,14 @@ async def inline_handlers(_, event: InlineQuery):
 
                                   "<a>@Aks_support01_bot || @Imdb_updates</a>"
 
-                                  "<a>🔴 YouTube Channel :</a>"
+                                  "<a>🔴 YouTube Channel:</a>"
 
-                                  "<a>https://youtube.com/c/TechnicalAks01 </a>"
+                                  "<a>https://youtube.com/channel/UCyo2YOr51okeUIpEyM7ZGkw </a>"
 
-                                  "<a>👥 BotSupport : @Imdb_updates</a> </a>"
+                                  "<a>👥 BotSupport : @Z_Harbour_bot </a> </a>"
 
 
-                                  "<a> Follow Our Bot Updates Channel : @Imdb_updates</a>",
+                                  "<a> Follow Our Bot Updates Channel : @z_harbour</a>",
                     disable_web_page_preview=True
                 ),
                 reply_markup=InlineKeyboardMarkup([
@@ -128,11 +128,11 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("💢 Movies Channel", callback_data="https://t.me/technicalaks1"),
-						InlineKeyboardButton("🚸 Powered By", url="https://t.me/Aks_support01_bot")
+						InlineKeyboardButton("💢 Movies Channel", callback_data="https://t.me/z_harbour"),
+						InlineKeyboardButton("🚸 Powered By", url="https://t.me/Z_Harbour_bot")
 					],
 					[
-						InlineKeyboardButton("👨‍💻 Developer ", url="https://t.me/Aks_support01_bot"),
+						InlineKeyboardButton("👨‍💻 Developer ", url="https://t.me/Z_Harbour_bot"),
 						InlineKeyboardButton("🏠 Home", callback_data="gohome")
 					]
 				]
@@ -164,8 +164,8 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🛑 Support 🛑", url="https://t.me/Imdb_updates"),
-						InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/Imdb_updates")
+						InlineKeyboardButton("🛑 Support 🛑", url="https://t.me/z_harbour"),
+						InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/z_harbour")
 					],
                                         [
 						InlineKeyboardButton("👥 Help", callback_data="Help_msg"),
@@ -189,15 +189,15 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👥Bot Support", url="https://t.me/Imdb_updates"),
-						InlineKeyboardButton("🎥Movies Channel", url="https://t.me/technicalaks1")
+						InlineKeyboardButton("👥Bot Support", url="https://t.me/Z_Harbour_bot"),
+						InlineKeyboardButton("🎥Movies Channel", url="https://t.me/z_harbour")
 					],
 					[
-						InlineKeyboardButton("🤖Bot Channel", url="https://t.me/Imdb_updates"),
+						InlineKeyboardButton("🤖Bot Channel", url="https://t.me/z_harbour"),
 						InlineKeyboardButton("📃Bots List", url="https://t.me/Imdb_updates")
 					], 
                                         [
-						InlineKeyboardButton("👥Developer", url="https://t.me/Aks_support01_bot"),
+						InlineKeyboardButton("👥Developer", url="https://t.me/Z_Harbour_bot"),
 						InlineKeyboardButton("🔰Youtube", url="https://youtube.com/c/TechnicalAks01")
 					], 
                                         [
