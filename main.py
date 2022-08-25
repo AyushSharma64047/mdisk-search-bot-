@@ -32,11 +32,11 @@ async def start_handler(_, event: Message):
 
     await event.reply_text(Config.START_MSG.format(event.from_user.mention),                       
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="https://t.me/mdisk1_search_bot?startgroup=true")],
-             [InlineKeyboardButton("ʙᴏᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Imdb_updates"),
-             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ sᴇᴀʀᴄʜ", url="https://youtu.be/RFFNapr91WM"),
+            [InlineKeyboardButton("➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="https://t.me/MdiskLinksSenderBot?startgroup=true")],
+             [InlineKeyboardButton("📤ʙᴏᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/z_harbour"),
+             InlineKeyboardButton("🔰ʜᴏᴡ ᴛᴏ sᴇᴀʀᴄʜ", url="https://https://youtube.com/channel/UCyo2YOr51okeUIpEyM7ZGkw"),
             InlineKeyboardButton("♻ʜᴇʟᴘ", callback_data="Help_msg")],
-             [InlineKeyboardButton("👥ᴀʙᴏᴜᴛ", callback_data="About_msg"), 
+             [InlineKeyboardButton("♨️ᴀʙᴏᴜᴛ", callback_data="About_msg"), 
             InlineKeyboardButton("🔍Search Movie", switch_inline_query_current_chat="")]
         ])
     )
@@ -48,8 +48,8 @@ async def help_handler(_, event: Message):
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ Bʏ", url="https://t.me/Z_Harbour_bot"),
              InlineKeyboardButton("🌱 Movies Channel ", url="https://t.me/z_harbour"), 
-             InlineKeyboardButton("👥 About", callback_data="About_msg")],
-            [InlineKeyboardButton("Search Inline", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
+             InlineKeyboardButton("♨️ About", callback_data="About_msg")],
+            [InlineKeyboardButton("🔍 Search Inline 🔍", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
         ])
     )
 
@@ -66,11 +66,11 @@ async def inline_handlers(_, event: InlineQuery):
                 input_message_content=InputTextMessageContent(
                     message_text="A dream does not become reality through magic; it takes sweat, determination, and hard work."
 
-                                  "<a>@Aks_support01_bot || @Imdb_updates</a>"
+                                  "<a>Official Channel || @z_harbour</a>"
 
                                   "<a>🔴 YouTube Channel:</a>"
 
-                                  "<a>https://youtube.com/channel/UCyo2YOr51okeUIpEyM7ZGkw </a>"
+                                  "<a> https://youtube.com/channel/UCyo2YOr51okeUIpEyM7ZGkw</a>"
 
                                   "<a>👥 BotSupport : @Z_Harbour_bot </a> </a>"
 
@@ -80,9 +80,9 @@ async def inline_handlers(_, event: InlineQuery):
                 ),
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("Search Here", switch_inline_query_current_chat="")],
-                    [InlineKeyboardButton("Imdb Bots", url="https://t.me/Imdb_updates</a>"),
-                     InlineKeyboardButton("Bots Support", url="https://t.me/Imdb_updates")],
-                    [InlineKeyboardButton("TeleGram Bots", url="https://t.me/Imdb_updates")]
+                    [InlineKeyboardButton("Imdb Bots", url="https://t.me/z_harbour</a>"),
+                     InlineKeyboardButton("Bots Support", url="https://t.me/z_harbour")],
+                    [InlineKeyboardButton("TeleGram Bots", url="https://t.me/z_harbour")]
                 ])
             )
         )
@@ -147,10 +147,10 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("👥 About", callback_data="About_msg"),
-						InlineKeyboardButton("💢 Github Repo", url="https://t.me/Aks_support01_bot")
+						InlineKeyboardButton("💢 Github Repo", url="https://t.me/z_harbour")
 					], 
                                         [
-						InlineKeyboardButton("Bot List", url="https://t.me/Imdb_updates"),
+						InlineKeyboardButton("Bot List", url="https://t.me/z_harbour"),
 						InlineKeyboardButton("🏠 Home", callback_data="gohome")
 					]
 				]
@@ -172,7 +172,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("♻ About", callback_data="About_msg")
 					],
                                         [
-						InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/mdisk1_search_bot?startgroup=true")
+						InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/MdiskLinksSenderBot?startgroup=true")
 					],
 					[
 						InlineKeyboardButton("Search Inline ⤵", switch_inline_query_current_chat=""),
@@ -198,7 +198,7 @@ async def button(bot, cmd: CallbackQuery):
 					], 
                                         [
 						InlineKeyboardButton("👥Developer", url="https://t.me/Z_Harbour_bot"),
-						InlineKeyboardButton("🔰Youtube", url="https://youtube.com/c/TechnicalAks01")
+						InlineKeyboardButton("🔰Youtube", url="https://youtube.com/channel/UCyo2YOr51okeUIpEyM7ZGkw")
 					], 
                                         [
 						InlineKeyboardButton("🏠 Home ", callback_data="gohome")
