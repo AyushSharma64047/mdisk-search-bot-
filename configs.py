@@ -23,34 +23,34 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'> Heroku </a>
 
-👨‍💻 Modified By: <a href='https://t.me/Imdb_updates'>Imdb-updates</a>
+👨‍💻 Modified By: <a href='https://t.me/Z_Harbour_bot'>Imdb-updates</a>
 
-🌀 Youtube: <a href='https://youtube.com/c/TechnicalAks01'>Technical Aks</a>
+🌀 Youtube: <a href='https://youtube.com/channel/UCyo2YOr51okeUIpEyM7ZGkw'>ZHarbourYT</a>
 
-👥 Bots Support: <a href='https://t.me/Imdb_updates'>IMDBBOTS</a>
+👥 Bots Support: <a href='https://t.me/Z_Harbour_bot'>IMDBBOTS</a>
 
-📢 Bots Updates: <a href='https://t.me/Imdb_updates'>IMDB-BOTS</a></b>
+📢 Bots Updates: <a href='https://t.me/Z_Harbour_bot'>IMDB-BOTS</a></b>
 """
     
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developers : <a href='https://t.me/Aks_support01_bot'>Aks</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developers : <a href='https://t.me/Z_Harbour_bot'>Lucifer</a>
 
 Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things.
 
 🌀 I will help you to find Best Telegram Bots.
 
-🌀 If you Get Any Error In Searching Please Report at **@Aks_support01_bot**.
+🌀 If you Get Any Error In Searching Please Report at **@Z_Harbour_bot**.
 
-🌀 Our Project Channel: <a href='https://t.me/Imdb_updates'>Imdb-updates</a>.
+🌀 Our Project Channel: <a href='https://t.me/z_harbour'>z_harbour</a>.
 
 🌀 All Bots Based On Users and Developer Demands. 
 
-🤖 Join For All Available Bots On Telegram: @Imdb_updates.
+🤖 Join For All Available Bots On Telegram: @z_harbour.
 """
     
     HOME_TEXT = """
 <b>👋 Hey !{}, This is Online Search Botlist Bot <a href='https://t.me/mdisk1_search_bot'>mdisk</a>.
 
-<a> Modified By : @Imdb_updates</a>
+<a> Modified By : @z_harbour </a>
 
        <a> Credits goes to Everyone Who Supported.</b>
 
